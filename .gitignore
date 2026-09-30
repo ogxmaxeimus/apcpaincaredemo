@@ -1,0 +1,16 @@
+# Local / secrets — not part of the demo site
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+
+# Local review recording
+walkthrough.mp4
+
+# Editor / agent tooling
+.cursor/
+.DS_Store
+*.log
+node_modules/
+.netlify/
